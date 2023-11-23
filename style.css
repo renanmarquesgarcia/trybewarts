@@ -39,3 +39,48 @@
   padding: 5px 12px;
 }
 
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  padding: 0 40px;
+}
+
+.form-title {
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.names {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.email-house {
+  display: flex;
+  gap: 10px;
+}
+
+.email-house label {
+  align-self: center;
+}
+
+#house {
+  width: 45%;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
