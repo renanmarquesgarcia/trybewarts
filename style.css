@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inknut Antiqua, serif;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.trybewarts-header-logo {
+  width: 80px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+
+.trybewarts-login {
+  display: flex;
+  gap: 5px;
+  width: 40%;
+}
+
+.login-btn {
+  background-color: rgb(78, 44, 131);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 12px;
+}
+
