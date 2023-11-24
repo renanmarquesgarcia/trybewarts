@@ -16,6 +16,27 @@ const validateLogin = () => {
   });
 };
 
+const createRateRadiosBtns = () => {
+  const rateSection = document.querySelector('#rate');
+  const rateDiv = document.querySelector('#rate-div');
+
+  for (let i = 1; i <= 10; i += 1) {
+    const rateLabel = document.createElement('label');
+    rateLabel.innerText = `${i}`;
+
+    const radioInput = document.createElement('input');
+    radioInput.type = 'radio';
+    radioInput.name = 'rate';
+    radioInput.value = `${i}`;
+
+    rateLabel.appendChild(radioInput);
+    rateDiv.appendChild(rateLabel);
+  }
+
+  rateSection.appendChild(rateDiv);
+};
+
 window.onload = () => {
   validateLogin();
+  createRateRadiosBtns();
 };
