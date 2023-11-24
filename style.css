@@ -115,12 +115,29 @@ main {
 #rate {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 #rate-div {
   display: flex;
-  width: 55%;
   justify-content: space-around;
+  width: 55%;
+}
+
+#comments {
+  display: flex;
+  flex-direction: column;
+}
+
+#textarea {
+  height: 100px;
+  padding: 10px;
+  resize: none;
+  width: 100%;
+}
+
+#textarea:focus {
+  outline-color: rgb(78, 44, 131);
 }
 
 #trybewarts-forms-logo {
