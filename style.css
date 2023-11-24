@@ -41,11 +41,14 @@
 }
 
 main {
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.128);
   display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
 
 #evaluation-form {
-  border: red 1px solid;
   display: flex;
   flex-direction: column;
   width: 675px;
@@ -127,6 +130,7 @@ main {
 #comments {
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 
 #textarea {
@@ -138,6 +142,15 @@ main {
 
 #textarea:focus {
   outline-color: rgb(78, 44, 131);
+}
+
+#submit-btn {
+  padding: 10px 0;
+  background-color: rgb(78, 44, 131);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin-top: 15px;
 }
 
 #trybewarts-forms-logo {
