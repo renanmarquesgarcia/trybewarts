@@ -49,8 +49,18 @@ const enableSubmitBtn = () => {
   });
 };
 
+const couterCharacters = () => {
+  const textarea = document.querySelector('#textarea');
+  textarea.addEventListener('keyup', (event) => {
+    const counterSpan = document.querySelector('#counter');
+    const maxCounter = 500;
+    counterSpan.innerHTML = (maxCounter - event.target.value.length);
+  });
+};
+
 window.onload = () => {
   validateLogin();
   createRateRadiosBtns();
   enableSubmitBtn();
+  couterCharacters();
 };

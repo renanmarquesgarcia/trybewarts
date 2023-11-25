@@ -133,6 +133,10 @@ main {
   margin-bottom: 15px;
 }
 
+#comments div {
+  position: relative;
+}
+
 #textarea {
   height: 100px;
   padding: 10px;
@@ -142,6 +146,13 @@ main {
 
 #textarea:focus {
   outline-color: rgb(78, 44, 131);
+}
+
+#counter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(-4px, -7px);
 }
 
 #submit-btn {
