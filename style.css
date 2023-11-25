@@ -45,7 +45,7 @@ main {
   background-color: rgba(128, 128, 128, 0.128);
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 #evaluation-form {
@@ -155,4 +155,13 @@ main {
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+footer {
+  align-items: center;
+  background-color: rgb(60, 64, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 50px;
 }
