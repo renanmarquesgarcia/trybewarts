@@ -36,7 +36,21 @@ const createRateRadiosBtns = () => {
   rateSection.appendChild(rateDiv);
 };
 
+const enableSubmitBtn = () => {
+  const agreementCheckbox = document.querySelector('#agreement');
+
+  agreementCheckbox.addEventListener('click', (event) => {
+    const submitBtn = document.querySelector('#submit-btn');
+    if (event.target.checked) {
+      submitBtn.disabled = false;
+    } else {
+      submitBtn.disabled = true;
+    }
+  });
+};
+
 window.onload = () => {
   validateLogin();
   createRateRadiosBtns();
+  enableSubmitBtn();
 };
