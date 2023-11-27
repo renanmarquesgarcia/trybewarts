@@ -164,6 +164,19 @@ main {
   margin-top: 15px;
 }
 
+#form-data {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 675px;
+}
+
+#form-data p {
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
