@@ -2,6 +2,9 @@
 
   Este projeto contempla o deselvolvimento de um formulário da Escola de Magia de Trybewarts. O tema é baseado na obra 'Harry Potter'. Para desenvolver o projeto foram utilizadas as tecnologias HTML, CSS e JavaScript, aplicando tags html relacionados a implementação de formulários e flexbox para posicionar os elementos em tela.
 
+  Caso queira acessar a página web do formulário:
+  `https://renanmarquesgarcia.github.io/trybewarts/`
+
 # Orientações
 
 <details>
